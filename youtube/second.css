@@ -1,0 +1,13 @@
+body{
+    background-color:#FFE8D6 ;
+}
+h1{
+    text-align: center;
+    color: rgb(173, 54, 54);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:1px;
+    font-weight:Medium 500;
+    margin: 120px auto;
+    width: 600px;
+    height: 100px;
+}

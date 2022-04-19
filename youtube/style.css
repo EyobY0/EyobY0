@@ -1,0 +1,144 @@
+body{
+    background-color: #e4d1c5;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: rgb(173, 54, 54);
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    height: 10px; 
+    font-weight:Medium 500;
+    font-size:60px;
+    margin: 120px auto;
+}
+h2{
+    color: #323e2d;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link-imgs{
+    color: #000000;
+    align-items: center;
+    text-decoration: none;
+
+} 
+.first-description{
+    color: #6B705C;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    text-align: center;
+    color: dimgrey;
+    margin-bottom: 60px;
+}
+
+h4{
+    text-align: center;
+    color:#A5A58D;
+    font-size: medium;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    width: 150px;
+    height: 100px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.first_hoodie{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.hoodie__img {
+    display: block;
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 0px auto;
+}
+
+.hoodie__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 250px;
+    border-radius: 20;
+    background: rgba(78, 56, 35, 0.585);
+    color: #f2e6e6;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    text-align: center;
+}
+
+#hoodie-link{
+    text-align: center;
+    color: rgb(255, 254, 253);
+    text-decoration: none;
+}
+
+.hoodie__overlay--blur {
+    backdrop-filter: blur(30px);
+}
+
+.hoodie__overlay--primary {
+    background: #009577;
+}
+
+.hoodie__overlay > * {
+    transform: translateY(70px);
+    transition: transform 1s;
+}
+
+.hoodie__overlay:hover {
+    opacity: 1;
+}
+
+.hoodie__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.hoddie__title {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.hoodie__description {
+    font-size: 5px;
+    margin-top: 0.25em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hoodie-h3{
+    text-align: center;
+    color: dimgrey;
+    margin: 20px;
+    width: 200px;
+}
+.second-page{
+    color: rgb(173, 54, 54);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight:Medium 500;
+}
+
+
+
