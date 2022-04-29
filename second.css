@@ -1,0 +1,22 @@
+body{
+    background-color:#FFE8D6 ;
+}
+.home-link{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:Medium 500;
+    width: fit-content;
+    
+}
+
+.second-hoodie-description{
+    text-align: center;
+    color: rgb(173, 54, 54);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:1px;
+    font-weight:Medium 500;
+    margin:    80px auto;
+    width: 800px;
+    height: 200px;
+    font-size: 45px;
+}
